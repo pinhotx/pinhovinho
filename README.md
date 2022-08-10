@@ -7,4 +7,6 @@ Introdução ao HTML e diversas tecnologias.
 > Aula 2 - Descomplicando o código (Concluída)
 Introdução ao CSS
 
-> Aula 3 - Como acelerar sua evolução (Em progresso)
+> Criando minha versão do projeto (Em progresso)
+
+> Aula 3 - Como acelerar sua evolução (Pŕoxima)
