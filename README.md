@@ -9,4 +9,4 @@ Introdução ao CSS
 
 > Criando minha versão do projeto (Em progresso)
 
-> Aula 3 - Como acelerar sua evolução (Pŕoxima)
+> Aula 3 - Como acelerar sua evolução (Concluída)
