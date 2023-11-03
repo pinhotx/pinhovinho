@@ -1,0 +1,25 @@
+{
+  "name": "pinhovinho",
+  "version": "1.0.0",
+  "description": "A website for a restaurant inside a pine tree forest. Pinho Vinho.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/pinhotx/pinhovinho"
+  },
+  "keywords": [
+    "Pinho",
+    "Vinho",
+    "wine",
+    "pine",
+    "tree",
+    "food",
+    "comida",
+    "pinheiro"
+  ],
+  "author": "Tiago Pinhotx",
+  "license": "ISC"
+}
