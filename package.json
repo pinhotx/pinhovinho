@@ -21,5 +21,8 @@
     "pinheiro"
   ],
   "author": "Tiago Pinhotx",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bulma": "^0.9.4"
+  }
 }
