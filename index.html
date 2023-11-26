@@ -5,18 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="node_modules/bulma/css/bulma.min.css">
   <link rel="stylesheet" href="base/styles.css">
+  <link rel="icon" type="image/x-icon" href="/assets/favicon.png">
+
   <title>PinhoVinho</title>
 </head>
-<body>
+<body class="has-navbar-fixed-top">
 
   <header>
-    <nav id="n-bar" class="navbar" role="navigation" aria-label="main navigation">
+    <nav id="nBar" class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
-        <a class="navbar-item" href="./index.html">
-          <h1 class="title">
+        <a class="navbar-item">
+          <img id="navLogoDesktop" class="is-hidden-touch" src="./assets/logo2/logo2_pinhovinho.png" alt="Logo Pinhovinho">
+          <img id="navLogoMobile" class="is-hidden-desktop" src="./assets/logo2/logo2_pinhovinho_simbolo_feliz.png" alt="Logo Pinhovinho">
+        </a>
+       <!--  <a class="navbar-item" href="./index.html">
+          <h1 class="is-size-3 title is-uppercase">
             Pinho<span class="">Vinho</span>
           </h1>
-        </a>
+          
+        </a> -->
 
         <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
           <span aria-hidden="true"></span>
@@ -25,13 +32,13 @@
         </a>
       </div>
 
-      <div id="navbarBasicExample" class="navbar-menu">
+      <div id="d-navbar-items" class="navbar-menu">
         <div class="navbar-start">
           <a class="navbar-item" href="./index.html">
             Home
           </a>
     
-          <a class="navbar-item" href="./menu.html">
+          <a class="navbar-item" href="./view/menu.html">
             Cardapio
           </a>
     
