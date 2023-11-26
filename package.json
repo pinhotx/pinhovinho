@@ -2,9 +2,11 @@
   "name": "pinhovinho",
   "version": "1.0.0",
   "description": "A website for a restaurant inside a pine tree forest. Pinho Vinho.",
-  "main": "index.js",
+  "main": "base/sass/styles.scss",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "css-build": "node-sass --omit-source-map-url base/sass/styles.scss base/css/styles.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
   },
   "repository": {
     "type": "git",
@@ -25,5 +27,8 @@
   "dependencies": {
     "bulma": "^0.9.4",
     "jquery": "^3.7.1"
+  },
+  "devDependencies": {
+    "node-sass": "^9.0.0"
   }
 }

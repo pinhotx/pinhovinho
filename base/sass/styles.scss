@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+$pinegreen: #0CCA4A;
+$darkpurple: #231942;
+$melon: #F9B5AC;
+$light: #FCFAFA;
+$grape: #9C89B8;
+
+
+$primary: $pinegreen;
+$success: $pinegreen;
+$warning: $melon;
+$info: $grape;
+$primary-dark: $darkpurple;
+$dark: $darkpurple;
+$light-hover: $darkpurple;
+
+@import "../../node_modules/bulma/bulma.sass";
+
