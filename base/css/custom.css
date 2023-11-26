@@ -7,17 +7,6 @@ h1.title{
   color: var(--grape);
 }
 
-nav.navbar img#navLogo{
-
-}
-
-nav.navbar .navbrand a#navLogo{
-  
-}
-
-
-
-
 
 @media screen and (max-width: 1023px){
   nav.navbar .navbar-menu{
