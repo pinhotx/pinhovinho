@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="node_modules/bulma/css/bulma.min.css">
-  <link rel="stylesheet" href="base/styles.css">
+  <link rel="stylesheet" href="base/css/styles.css">
+  <link rel="stylesheet" href="base/css/custom.css">
   <link rel="icon" type="image/x-icon" href="/assets/favicon.png">
 
   <title>PinhoVinho</title>
@@ -12,9 +12,9 @@
 <body class="has-navbar-fixed-top">
 
   <header>
-    <nav id="nBar" class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+    <nav id="nBar" class="navbar is-fixed-top is-transparent" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
-        <a class="navbar-item">
+        <a id="navLogo" class="navbar-item">
           <img id="navLogoDesktop" class="is-hidden-touch" src="./assets/logo2/logo2_pinhovinho.png" alt="Logo Pinhovinho">
           <img id="navLogoMobile" class="is-hidden-desktop" src="./assets/logo2/logo2_pinhovinho_simbolo_feliz.png" alt="Logo Pinhovinho">
         </a>
@@ -68,7 +68,7 @@
         <div class="navbar-end">
           <div class="navbar-item">
             <div class="buttons">
-              <a class="button is-primary">
+              <a class="button is-primary has-text-primary-dark">
                 <strong>Sign up</strong>
               </a>
               <a class="button is-light" href="https://github.com/pinhotx">
@@ -83,10 +83,35 @@
   </header>
 
   <main>
-  <h1 class="title">HEHE<span>HE</span></h1>
-  <button class="button">sasd</button>
+  <section id="banner" class="container">
+    <h2 class="title is-size-4">RPG</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident voluptatibus harum omnis ad veritatis debitis sed animi sunt, quaerat minima maxime nostrum. Animi, ducimus dolore sit totam ex voluptatem quo?</p>
+  </section>
+  <section>
+    <h2></h2>
+    <p>Pariatur dolor minima labore quam temporibus ullam corrupti recusandae inventore. Ducimus, animi numquam neque nemo suscipit optio commodi sint pariatur delectus eos cum eligendi sequi est nam ipsam alias reiciendis.</p>
+  </section>
+  <section>
+    <h2></h2>
+    <p>Iusto odit explicabo, et quam animi labore dolorem atque sint dolore assumenda error repellat obcaecati nobis. At minima libero commodi? Deleniti possimus a itaque quidem non atque repellat voluptas ab!</p>
+  </section>
+  <section>
+    <h2></h2>
+    <p>Voluptate quo saepe iusto eaque amet ipsum perspiciatis facere, suscipit ratione nesciunt, maiores consectetur doloremque dolor veritatis ullam modi dolore laborum consequatur laboriosam? Autem delectus eveniet possimus facilis harum architecto.</p>
+  </section>
 
   </main>
+
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        <strong>PINHOVINHO</strong> desenvolvido por <a href="https://www.linkedin.com/in/pinhotx/">Tiago Silveira</a> para as disciplinas de <strong>Padrões de Projeto de Sítios para Internet II</strong> e <strong>Práticas de Design</strong>
+      </p>
+      <p>
+        Trabalho desenvolvido sob a orientação do <a href="https://www.linkedin.com/in/felipe-maciel-icmc/">Me. Prof. Felipe Maciel Rodrigues </a>
+      </p>
+    </div>
+  </footer>
   
 </body>
 <!-- Importação da biblioteca de Icones do Ionic -->

@@ -1,0 +1,39 @@
+@import 'custom-colors.css';
+
+h1.title span{
+  color: var(--pinegeen);
+}
+h1.title{
+  color: var(--grape);
+}
+
+nav.navbar img#navLogo{
+
+}
+
+nav.navbar .navbrand a#navLogo{
+  
+}
+
+
+
+
+
+@media screen and (max-width: 1023px){
+  nav.navbar .navbar-menu{
+    /* transition: height 1s ease-in-out; */
+    overflow: hidden;
+    height: 0px;
+    animation: menuReveal 1s;
+  }
+  
+  @keyframes menuReveal {
+    0% { height: 0; }
+    80% { height: 80vh; }
+    100% { height: 70vh; }
+  }
+  
+  nav.navbar .navbar-menu.is-active{
+    height: min-content;
+  }
+}
